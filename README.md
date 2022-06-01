@@ -10,7 +10,7 @@
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Live Demo](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/Readme_images/Demo.gif)
+![Live Demo](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/Readme_images/)
 
 ## :star: Features
 This system can be used in real-time applications that require face mask detection for security purposes due to the increase in the Covid-19 outbreak. This project can be integrated with embedded systems for application in airports, train stations, offices, schools and public places to ensure compliance with public safety guidelines.
@@ -35,10 +35,6 @@ The images used were real images of faces wearing masks. The images were collect
 - [Keras](https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)
 
-
-
-
-
 ## 🚀&nbsp; Installation
 1. Clone the repo
 ```
@@ -53,42 +49,46 @@ $ pip3 install -r requirements.txt
 
 1. Open terminal. Go into the cloned project directory and type the following command:
 ```
-$ python3 train_mask_detector.py --dataset dataset
+$ python3 Train.py --dataset data
 ```
 
-2. To detect face masks in an image type the following command: 
+2. To detect face masks in real-time video streams type the following command:
 ```
-$ python3 detect_mask_image.py --image images/pic1.jpeg
-```
-
-3. To detect face masks in real-time video streams type the following command:
-```
-$ python3 detect_mask_video.py 
+$ python3 Test.py 
 ```
 ## :key: Results
 
-#### Our model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.5.0</code>
+<h4 align="center"> Our model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.5.0</code> </h4>
 
 ####          
-![](https://github.com/bertuginal/Face-Mask-Detection/blob/dd383d0bc96cd6ab9d15823f96756e89df7623f7/img/train-cmd.png)
+<div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/dd383d0bc96cd6ab9d15823f96756e89df7623f7/img/train-cmd.png" width="500"></div>
 
-#### We got the following accuracy/loss training curve plot
-![](https://github.com/bertuginal/Face-Mask-Detection/blob/4a8151b8c1ed169b2d1c1d795c2c4e91695f4d67/img/graphic.png)
+---
 
+<h4 align="center"> We got the following accuracy/loss training curve plot.</h4>
 
-## Images
+<div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/4a8151b8c1ed169b2d1c1d795c2c4e91695f4d67/img/graphic.png" width="500"></div>
 
-<p align="center">
-  <img src="Readme_images/1.PNG">
-</p>
-<p align="center">Upload Images</p>
+## :point_down: Images
 
-<p align="center">
-  <img src="Readme_images/2.PNG">
-</p>
-<p align="center">Results</p>
+<h3 align="center"> FRAME: With Mask</h3>
+<h4 align="center">We got 98.85% accuracy when wearing a face mask.</h4>
+<br>
+<div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/09241e369c708898dd197a3ede1c9592183ca614/img/withmask.jpg" width="700"></div>
+
+---
+
+<h3 align="center"> FRAME: Without Mask</h3>
+<h4 align="center">We got 99.77% accuracy when we were not wearing a face mask.</h4>
+<br>
+<div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/09241e369c708898dd197a3ede1c9592183ca614/img/withoutmask.jpg" width="700"></div>
+
+---
+
+<h3 align="center"> FRAME: Half With Mask</h3>
+<h4 align="center">We got 53.06% accuracy when the face mask is worn under the mouth.</h4>
+<br>
+<div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/09241e369c708898dd197a3ede1c9592183ca614/img/half-withmask.jpg" width="700"></div>
 
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query :email: bertuginal@yahoo.com
-
----
