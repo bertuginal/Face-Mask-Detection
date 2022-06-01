@@ -69,21 +69,13 @@ $ python3 detect_mask_video.py
 
 #### Our model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.5.0</code>
 
-<a href="https://colab.research.google.com/drive/1AZ0W2QAHnM3rcj0qbTmc7c3fAMPCowQ1?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ####          
-![](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/Readme_images/Screenshot%202020-06-01%20at%209.48.27%20PM.png)
+![](https://github.com/bertuginal/Face-Mask-Detection/blob/dd383d0bc96cd6ab9d15823f96756e89df7623f7/img/train-cmd.png)
 
 #### We got the following accuracy/loss training curve plot
-![](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/plot.png)
+![](https://github.com/bertuginal/Face-Mask-Detection/blob/4a8151b8c1ed169b2d1c1d795c2c4e91695f4d67/img/graphic.png)
 
-## Streamlit app
 
-Face Mask Detector webapp using Tensorflow & Streamlit
-
-command
-```
-$ streamlit run app.py 
-```
 ## Images
 
 <p align="center">
