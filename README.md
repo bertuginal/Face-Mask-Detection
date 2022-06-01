@@ -11,3 +11,4 @@ I trained models using around 3000 with mask and without mask photos.
 <h3 align="center">OUTPUT : Without Mask</h3>
 <div align="center"><img src="https://github.com/bertuginal/gif/blob/master/" width="400"></div>
 <h3 align="center">OUTPUT : Half With Mask</h3>
+<div align="center"><img src="https://github.com/bertuginal/gif/blob/master/" width="400"></div>
