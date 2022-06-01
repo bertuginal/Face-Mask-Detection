@@ -81,21 +81,21 @@ $ python3 Test.py
 ## :point_down: Images
 
 <h3 align="center"> FRAME: With Mask</h3>
-<h4 align="center">We got 98.85% accuracy when wearing a face mask.</h4>
+<h4 align="center">I got 98.85% accuracy when wearing a face mask.</h4>
 <br>
 <div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/09241e369c708898dd197a3ede1c9592183ca614/img/withmask.jpg" width="700"></div>
 
 ---
 
 <h3 align="center"> FRAME: Without Mask</h3>
-<h4 align="center">We got 99.77% accuracy when we were not wearing a face mask.</h4>
+<h4 align="center">I got 99.77% accuracy when we were not wearing a face mask.</h4>
 <br>
 <div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/09241e369c708898dd197a3ede1c9592183ca614/img/withoutmask.jpg" width="700"></div>
 
 ---
 
 <h3 align="center"> FRAME: Half With Mask</h3>
-<h4 align="center">We got 53.06% accuracy when the face mask is worn under the mouth.</h4>
+<h4 align="center">I got 53.06% accuracy when the face mask is worn under the mouth.</h4>
 <br>
 <div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/09241e369c708898dd197a3ede1c9592183ca614/img/half-withmask.jpg" width="700"></div>
 
