@@ -33,6 +33,16 @@ The images used were real images of faces wearing masks. The images were collect
 - [OpenCV](https://opencv.org/)
 - [Keras](https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)
+- [Numpy](https://numpy.org)
+- [Sklearn](https://scikit-learn.org/)
+- [Matplotlib](https://matplotlib.org)
+- [Imutils](https://pypi.org/project/imutils/)
+- [Os](https://pypi.org/project/os-sys/)
+
+## :warning: Haar-cascade used
+It is a method applied to find objects on the image. This method is called haar-like features. I used the "[haarcascade_frontalface_default.xml](https://github.com/bertuginal/Face-Mask-Detection/blob/master/Face-Mask-Detection/data/haarcascade_frontalface_default.xml)" file in this project.
+
+You can download all the haarcascade xml files you need from [here](https://github.com/opencv/opencv/tree/master/data/haarcascades).
 
 ## 🚀&nbsp; Installation
 1. Clone the repo
