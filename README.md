@@ -56,7 +56,7 @@ $ pip3 install -r requirements.txt
 
 ## :bulb: Working
 
-1. Open terminal. Go into the cloned project directory and type the following command:
+1. Open terminal. Type the following command to train the model:
 ```
 $ python3 Train.py --dataset data
 ```
