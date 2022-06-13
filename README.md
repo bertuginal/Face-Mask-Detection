@@ -102,4 +102,4 @@ $ python3 Test.py
 ## :clap: And it's done!
 Feel free to mail me for any doubts/query :email: bertuginal@yahoo.com
 
-:star: If you like my project, can you click the star to support me?
+:star: <b>If you like my project, can you click the star to support me?</b>
