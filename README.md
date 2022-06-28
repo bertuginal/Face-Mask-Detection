@@ -67,14 +67,14 @@ $ python3 Test.py
 ```
 ## :key: Results
 
-<h4 align="center"> Our model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.5.0</code> </h4>
+<h4 align="center"> My model gave 98% accuracy for Face Mask Detection after training via <code>tensorflow-gpu==2.5.0</code> </h4>
 
 ####          
 <div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/dd383d0bc96cd6ab9d15823f96756e89df7623f7/img/train-cmd.png" width="500"></div>
 
 ---
 
-<h4 align="center"> We got the following accuracy/loss training curve plot.</h4>
+<h4 align="center"> I got the following accuracy/loss training curve plot.</h4>
 
 <div align="center"><img src="https://github.com/bertuginal/Face-Mask-Detection/blob/4a8151b8c1ed169b2d1c1d795c2c4e91695f4d67/img/graphic.png" width="500"></div>
 
